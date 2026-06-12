@@ -1,33 +1,31 @@
-# The following is the order of the links in the header of the website.
+# =============================================================
+#  navigation.yml  —  Controls the menu bar at the top of your site
 #
-# Changing the order here will adjust the order and you can also add additional
-# links. Removing a link prevents it from showing in the header, but does not
-# prevent it from being included in the site.
-#
-# NOTE that only one of the CV options should be selected, the first is for the
-#      Markdown formatted page while the second is generated using JSON.
+#  Each item under "main" creates one link in the navigation bar.
+#  - title: the text visitors see
+#  - url:   the path to the page (relative to your site root)
+# =============================================================
 
 main:
-  - title: "Publications"
-    url: /publications/
+  - title: "About"
+    url: /                        # The homepage (your about.md)
 
-  - title: "Talks"
-    url: /talks/    
+  #- title: "Publications"
+  #  url: /publications/           # Lists all files in /_publications/
 
-  - title: "Teaching"
-    url: /teaching/    
-    
-  - title: "Portfolio"
-    url: /portfolio/
-        
-  - title: "Blog Posts"
-    url: /year-archive/
-    
-  - title: "CV"
-    url: /cv/
-    
-  # - title: "CV"
-  #   url: /cv-json/
-    
-  - title: "Guide"
-    url: /markdown/
+  #- title: "Talks"
+  #  url: /talks/                  # Lists all files in /_talks/
+
+  #- title: "Teaching"
+  #  url: /teaching/               # Lists all files in /_teaching/
+
+  #- title: "CV"
+  #  url: /cv/                     # A dedicated CV page (cv.md)
+
+  #- title: "Blog"
+  #  url: /year-archive/           # Archive of all blog posts by year
+
+  # ── How to add a link to an external site ─────────────────
+  # Uncomment and edit the lines below:
+  # - title: "Google Scholar"
+  #   url: https://scholar.google.com/citations?user=YOURID
