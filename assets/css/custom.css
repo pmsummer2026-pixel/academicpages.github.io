@@ -1,0 +1,47 @@
+/*
+ * custom.css
+ * ─────────────────────────────────────────────────────────────
+ * Add your own style overrides here.
+ * These rules are loaded AFTER the theme's default styles,
+ * so anything you write here will take priority.
+ *
+ * Tip: Open your browser's DevTools (F12) to inspect elements
+ * and find the CSS selector you want to override.
+ * ─────────────────────────────────────────────────────────────
+ */
+
+/* ── Accent colour ──────────────────────────────────────────
+   The theme uses a blue accent by default.
+   Change the hex code below to your preferred colour.
+   This affects links, headings, and hover states.          */
+:root {
+  --primary-color: #97005d;   /* Change this to your colour */
+}
+
+a, a:visited {
+  color: var(--primary-color);
+}
+
+/* ── Profile photo: make it a circle ──────────────────────── */
+.author__avatar img {
+  border-radius: 50%;
+  border: 3px solid var(--primary-color);
+}
+
+/* ── Increase body text readability ────────────────────────── */
+.page__content p {
+  line-height: 1.8;
+  font-size: 1rem;
+}
+
+/* ── News table: zebra striping for the news section ────────── */
+.page__content table tr:nth-child(even) {
+  background-color: #f5f7fa;
+}
+
+/* ── Add some breathing room around section headings ──────── */
+.page__content h2 {
+  margin-top: 2em;
+  padding-bottom: 0.3em;
+  border-bottom: 1px solid #e0e0e0;
+}
