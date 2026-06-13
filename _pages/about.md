@@ -1,13 +1,10 @@
 ---
-# ── Front Matter ─────────────────────────────────────────────
-# Everything between the triple-dashes (---) is "front matter".
-# It's metadata that tells Jekyll how to display this page.
-layout: single          # Use the "about" layout (a special template)
-title: "About Me"      # Page title shown in the browser tab
-excerpt: "About me"    # Short description used in search results
-author_profile: true   # Show your photo/bio sidebar
+layout: single
+title: "About Me"
+excerpt: "About me"
+author_profile: true
+permalink: /about/
 redirect_from:
-  - /about/
   - /about.html
 ---
 
