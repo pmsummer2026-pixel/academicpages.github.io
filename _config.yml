@@ -33,7 +33,7 @@ author:
 # ── Build Settings ────────────────────────────────────────────
 # These tell Jekyll (the engine that builds your site) how to work.
 # You usually don't need to change these.
-remote_theme: academicpages/academicpages.github.io
+remote_theme: academicpages/academicpages.github.io@master
 plugins:
   - jekyll-feed
   - jekyll-sitemap
